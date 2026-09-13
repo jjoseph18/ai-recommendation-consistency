@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --surface: #fcfcfb; --plane: #f9f9f7;
+    --ink: #0b0b0b; --ink2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7;
+    --chatgpt: #2a78d6; --gemini: #eb6834;
+    --ring: rgba(11,11,11,0.10);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--plane); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); }
+  .card { width: 900px; background: var(--surface); padding: 34px 40px 30px; border: 1px solid var(--ring); }
+  .eyebrow { font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+  h1 { font-size: 25px; line-height: 1.22; margin: 0 0 4px; font-weight: 700; }
+  .sub { font-size: 14px; color: var(--ink2); margin: 0 0 22px; }
+  .strip { display: flex; gap: 34px; margin: 0 0 26px; padding: 0 0 22px; border-bottom: 1px solid var(--grid); }
+  .stat .v { font-size: 34px; font-weight: 700; line-height: 1; }
+  .stat .l { font-size: 12.5px; color: var(--ink2); margin-top: 6px; max-width: 200px; }
+  .legend { display: flex; gap: 20px; font-size: 13px; color: var(--ink2); margin: 0 0 14px; align-items: center; }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .sw { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .rows { display: grid; gap: 11px; }
+  .row { display: grid; grid-template-columns: 152px 1fr; align-items: center; gap: 14px; }
+  .qlabel { font-size: 13px; color: var(--ink2); text-align: right; }
+  .pair { display: grid; gap: 5px; }
+  .bar { position: relative; height: 15px; background: linear-gradient(to right, var(--grid) 0 100%); border-radius: 3px; }
+  .fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px 4px 4px 3px; display: flex; align-items: center; }
+  .fill.cg { background: var(--chatgpt); }
+  .fill.gm { background: var(--gemini); }
+  .val { position: absolute; left: calc(100% + 7px); top: 50%; transform: translateY(-50%); font-size: 11.5px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .axis { display: grid; grid-template-columns: 152px 1fr; gap: 14px; margin-top: 10px; }
+  .ticks { position: relative; height: 16px; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .tick { position: absolute; transform: translateX(-50%); }
+  .foot { margin-top: 18px; font-size: 11.5px; color: var(--muted); }
+  .foot b { color: var(--ink2); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="card" id="card">
+  <p class="eyebrow">AI Recommendation Consistency &middot; exploratory study, 2026-09-13</p>
+  <h1>Ask the same &ldquo;best X&rdquo; question twice, about a third of the answer changes</h1>
+  <p class="sub">Mean brand-set overlap across 3 identical repeats &middot; 10 questions &middot; ChatGPT &amp; Gemini, web search on &middot; 60 responses</p>
+
+  <div class="strip">
+    <div class="stat"><div class="v">69.5%</div><div class="l">overall run-to-run consistency (~31% of picks change on a repeat)</div></div>
+    <div class="stat"><div class="v" style="color:var(--chatgpt)">87%</div><div class="l">ChatGPT &mdash; the steadier of the two</div></div>
+    <div class="stat"><div class="v" style="color:var(--gemini)">52%</div><div class="l">Gemini &mdash; the tail rotates far more</div></div>
+  </div>
+
+  <div class="legend">
+    <span><span class="sw" style="background:var(--chatgpt)"></span> ChatGPT (web search)</span>
+    <span><span class="sw" style="background:var(--gemini)"></span> Gemini (Search grounding)</span>
+  </div>
+
+  <div class="rows" id="rows"></div>
+
+  <div class="axis"><div></div><div class="ticks">
+    <span class="tick" style="left:0%">0%</span>
+    <span class="tick" style="left:25%">25%</span>
+    <span class="tick" style="left:50%">50%</span>
+    <span class="tick" style="left:75%">75%</span>
+    <span class="tick" style="left:100%">100%</span>
+  </div></div>
+
+  <p class="foot">The instability is <b>structured, not random</b>: of 127 distinct business-slots, <b>56% were named in every run</b> (a stable leading core) and <b>27% in only one of three</b> (a rotating tail). Data + code: <b>github.com/jjoseph18/ai-recommendation-consistency</b></p>
+</div>
+
+<script>
+  const DATA = [
+    ["PR distribution", 59, 50], ["CRM", 100, 42], ["Email marketing", 62, 63],
+    ["Project management", 100, 67], ["Accounting", 100, 33], ["Marketing agencies", 89, 61],
+    ["Website builders", 100, 62], ["Live chat", 100, 58], ["E-commerce", 100, 33],
+    ["Scheduling", 62, 50],
+  ];
+  const rows = document.getElementById("rows");
+  for (const [q, cg, gm] of DATA) {
+    const el = document.createElement("div");
+    el.className = "row";
+    el.innerHTML = `<div class="qlabel">${q}</div>
+      <div class="pair">
+        <div class="bar"><div class="fill cg" style="width:${cg}%"><span class="val">${cg}%</span></div></div>
+        <div class="bar"><div class="fill gm" style="width:${gm}%"><span class="val">${gm}%</span></div></div>
+      </div>`;
+    rows.appendChild(el);
+  }
+</script>
+</body>
+</html>

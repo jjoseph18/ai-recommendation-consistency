@@ -6,6 +6,8 @@ This repository releases the full response data and analysis code from an explor
 
 The short version: **about one recommended business in three changed when the same question was asked again minutes later.** But the instability is structured, not random. The top one to three names stay locked in; the lower-ranked slots rotate.
 
+![Per-question run-to-run consistency for ChatGPT and Gemini across ten "best X for a small business" questions. Overall 69.5%; ChatGPT 87%, Gemini 52%.](chart.png)
+
 This is a small, deliberately-scoped study. The numbers are directional, not definitive, and we are upfront about the limits below. The reason we are releasing every response is so anyone can check the work.
 
 ---
