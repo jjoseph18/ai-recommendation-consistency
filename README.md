@@ -121,7 +121,7 @@ Useful extensions we haven't done: more repetitions per question (to get real co
 
 ## Citing this dataset
 
-If you use this data, please cite it (see [`CITATION.cff`](CITATION.cff)). A formal preprint with a DOI is forthcoming on Zenodo; **DOI: pending** — this README will be updated with it. Until then:
+If you use this data, please cite it (see [`CITATION.cff`](CITATION.cff)). The full writeup is in the preprint bundled here: [`ai-recommendation-consistency-preprint.pdf`](ai-recommendation-consistency-preprint.pdf). A DOI-registered version is forthcoming on Zenodo; **DOI: pending** — this README will be updated with it. Until then:
 
 > Pressfront Research. *AI Recommendation Consistency Dataset: Run-to-Run Consistency of Business Recommendations from Web-Search-Enabled Large Language Models (Exploratory Study).* 2026. https://github.com/jjoseph18/ai-recommendation-consistency
 
