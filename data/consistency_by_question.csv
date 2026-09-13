@@ -1,0 +1,21 @@
+question_id,category,engine,consistency_pct,n_runs_scored
+q01,PR distribution,chatgpt,59,3
+q01,PR distribution,gemini,50,3
+q02,CRM,chatgpt,100,3
+q02,CRM,gemini,42,3
+q03,Email marketing,chatgpt,62,3
+q03,Email marketing,gemini,63,3
+q04,Project management,chatgpt,100,3
+q04,Project management,gemini,67,3
+q05,Accounting,chatgpt,100,3
+q05,Accounting,gemini,33,3
+q06,Marketing agencies,chatgpt,89,3
+q06,Marketing agencies,gemini,61,3
+q07,Website builders,chatgpt,100,3
+q07,Website builders,gemini,62,3
+q08,Live chat,chatgpt,100,3
+q08,Live chat,gemini,58,3
+q09,E-commerce,chatgpt,100,3
+q09,E-commerce,gemini,33,2
+q10,Appointment scheduling,chatgpt,62,3
+q10,Appointment scheduling,gemini,50,3

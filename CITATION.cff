@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: >-
+  AI Recommendation Consistency Dataset: Run-to-Run Consistency of Business
+  Recommendations from Web-Search-Enabled Large Language Models (Exploratory Study)
+message: If you use this dataset, please cite it using these metadata.
+type: dataset
+authors:
+  - name: Pressfront Research
+    city: Tampa
+    region: Florida
+    country: US
+    website: https://pressfront.co/research
+date-released: 2026-09-13
+version: "1.0.0"
+license: CC-BY-4.0
+url: https://github.com/jjoseph18/ai-recommendation-consistency
+abstract: >-
+  Ten open "best X for a small business" questions were each issued three times
+  to ChatGPT (OpenAI Responses API with web_search) and Google Gemini
+  (Generative Language API with Google Search grounding) on a single day, for 60
+  responses total. From each response the set of recommended businesses was
+  extracted and run-to-run consistency was measured as the mean pairwise Jaccard
+  overlap of these sets across the three repetitions. Overall consistency was
+  69.5% (ChatGPT 87.2%, Gemini 51.9%); of 127 distinct business-slots, 56%
+  appeared in every repetition and 27% in only one. An exploratory study; the
+  small sample means the results are directional. Full method, code, and all 60
+  responses are released for independent verification. A formal preprint with a
+  DOI is forthcoming on Zenodo.
+keywords:
+  - large language models
+  - generative engine optimization
+  - recommendation systems
+  - reproducibility
+  - ChatGPT
+  - Gemini

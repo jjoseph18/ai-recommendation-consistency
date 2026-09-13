@@ -1,0 +1,291 @@
+question_id,category,engine,run,rank,brand
+q01,PR distribution,chatgpt,1,1,RedPress.net
+q01,PR distribution,chatgpt,1,2,EIN Presswire
+q01,PR distribution,chatgpt,1,3,PRWeb
+q01,PR distribution,chatgpt,1,4,BrandPush
+q01,PR distribution,chatgpt,1,5,BuzzBlast
+q01,PR distribution,chatgpt,2,1,RedPress.net
+q01,PR distribution,chatgpt,2,2,EIN Presswire
+q01,PR distribution,chatgpt,2,3,PRWeb
+q01,PR distribution,chatgpt,2,4,eReleases
+q01,PR distribution,chatgpt,2,5,IssueWire
+q01,PR distribution,chatgpt,3,1,RedPress.net
+q01,PR distribution,chatgpt,3,2,EIN Presswire
+q01,PR distribution,chatgpt,3,3,PRWeb
+q01,PR distribution,chatgpt,3,4,eReleases
+q01,PR distribution,chatgpt,3,5,BrandPush
+q01,PR distribution,gemini,1,1,eReleases
+q01,PR distribution,gemini,1,2,EIN Presswire
+q01,PR distribution,gemini,1,3,PR Underground
+q01,PR distribution,gemini,1,4,Press Ranger
+q01,PR distribution,gemini,2,1,eReleases
+q01,PR distribution,gemini,2,2,Press Ranger
+q01,PR distribution,gemini,2,3,EIN Presswire
+q01,PR distribution,gemini,2,4,NewswireJet
+q01,PR distribution,gemini,2,5,PRWeb
+q01,PR distribution,gemini,3,1,eReleases
+q01,PR distribution,gemini,3,2,PR Newswire
+q01,PR distribution,gemini,3,3,EIN Presswire
+q01,PR distribution,gemini,3,4,Press Ranger
+q01,PR distribution,gemini,3,5,PRWeb
+q01,PR distribution,gemini,3,6,Newswire
+q02,CRM,chatgpt,1,1,HubSpot CRM
+q02,CRM,chatgpt,1,2,Pipedrive
+q02,CRM,chatgpt,1,3,Zoho CRM
+q02,CRM,chatgpt,1,4,Freshsales
+q02,CRM,chatgpt,1,5,Attio
+q02,CRM,chatgpt,2,1,HubSpot CRM
+q02,CRM,chatgpt,2,2,Pipedrive
+q02,CRM,chatgpt,2,3,Zoho CRM
+q02,CRM,chatgpt,2,4,Freshsales
+q02,CRM,chatgpt,2,5,Attio
+q02,CRM,chatgpt,3,1,HubSpot CRM
+q02,CRM,chatgpt,3,2,Pipedrive
+q02,CRM,chatgpt,3,3,Zoho CRM
+q02,CRM,chatgpt,3,4,Freshsales
+q02,CRM,chatgpt,3,5,Attio
+q02,CRM,gemini,1,1,HubSpot
+q02,CRM,gemini,1,2,Pipedrive
+q02,CRM,gemini,1,3,Attio
+q02,CRM,gemini,1,4,Zoho CRM
+q02,CRM,gemini,1,5,Bigin by Zoho
+q02,CRM,gemini,1,6,NetHunt CRM
+q02,CRM,gemini,1,7,folk
+q02,CRM,gemini,2,1,HubSpot
+q02,CRM,gemini,2,2,Attio
+q02,CRM,gemini,2,3,Pipedrive
+q02,CRM,gemini,3,1,HubSpot CRM
+q02,CRM,gemini,3,2,Attio
+q02,CRM,gemini,3,3,Pipedrive
+q02,CRM,gemini,3,4,Zoho CRM
+q02,CRM,gemini,3,5,folk
+q03,Email marketing,chatgpt,1,1,Brevo
+q03,Email marketing,chatgpt,1,2,MailerLite
+q03,Email marketing,chatgpt,1,3,Klaviyo
+q03,Email marketing,chatgpt,1,4,ActiveCampaign
+q03,Email marketing,chatgpt,1,5,HubSpot Marketing Hub
+q03,Email marketing,chatgpt,2,1,Brevo
+q03,Email marketing,chatgpt,2,2,MailerLite
+q03,Email marketing,chatgpt,2,3,ActiveCampaign
+q03,Email marketing,chatgpt,2,4,Klaviyo
+q03,Email marketing,chatgpt,2,5,HubSpot Marketing Hub
+q03,Email marketing,chatgpt,3,1,Mailchimp
+q03,Email marketing,chatgpt,3,2,Brevo
+q03,Email marketing,chatgpt,3,3,Klaviyo
+q03,Email marketing,chatgpt,3,4,ActiveCampaign
+q03,Email marketing,chatgpt,3,5,Sender
+q03,Email marketing,gemini,1,1,Klaviyo
+q03,Email marketing,gemini,1,2,Omnisend
+q03,Email marketing,gemini,1,3,Kit
+q03,Email marketing,gemini,1,4,beehiiv
+q03,Email marketing,gemini,1,5,ActiveCampaign
+q03,Email marketing,gemini,1,6,HubSpot
+q03,Email marketing,gemini,1,7,MailerLite
+q03,Email marketing,gemini,1,8,Brevo
+q03,Email marketing,gemini,1,9,Flodesk
+q03,Email marketing,gemini,2,1,Omnisend
+q03,Email marketing,gemini,2,2,Klaviyo
+q03,Email marketing,gemini,2,3,Kit
+q03,Email marketing,gemini,2,4,beehiiv
+q03,Email marketing,gemini,2,5,MailerLite
+q03,Email marketing,gemini,3,1,Omnisend
+q03,Email marketing,gemini,3,2,Klaviyo
+q03,Email marketing,gemini,3,3,beehiiv
+q03,Email marketing,gemini,3,4,Kit
+q03,Email marketing,gemini,3,5,MailerLite
+q03,Email marketing,gemini,3,6,ActiveCampaign
+q03,Email marketing,gemini,3,7,Constant Contact
+q03,Email marketing,gemini,3,8,Flodesk
+q04,Project management,chatgpt,1,1,Trello
+q04,Project management,chatgpt,1,2,Asana
+q04,Project management,chatgpt,1,3,ClickUp
+q04,Project management,chatgpt,1,4,Monday.com
+q04,Project management,chatgpt,1,5,Notion
+q04,Project management,chatgpt,2,1,Trello
+q04,Project management,chatgpt,2,2,Asana
+q04,Project management,chatgpt,2,3,ClickUp
+q04,Project management,chatgpt,2,4,Monday.com
+q04,Project management,chatgpt,2,5,Notion
+q04,Project management,chatgpt,3,1,Trello
+q04,Project management,chatgpt,3,2,Asana
+q04,Project management,chatgpt,3,3,ClickUp
+q04,Project management,chatgpt,3,4,Monday.com
+q04,Project management,chatgpt,3,5,Notion
+q04,Project management,gemini,1,1,Monday.com
+q04,Project management,gemini,1,2,Asana
+q04,Project management,gemini,1,3,ClickUp
+q04,Project management,gemini,1,4,Trello
+q04,Project management,gemini,2,1,monday.com
+q04,Project management,gemini,2,2,ClickUp
+q04,Project management,gemini,2,3,Zoho Projects
+q04,Project management,gemini,2,4,Teamwork.com
+q04,Project management,gemini,2,5,Trello
+q04,Project management,gemini,3,1,Asana
+q04,Project management,gemini,3,2,Trello
+q04,Project management,gemini,3,3,monday.com
+q04,Project management,gemini,3,4,ClickUp
+q05,Accounting,chatgpt,1,1,FreshBooks
+q05,Accounting,chatgpt,1,2,Wave
+q05,Accounting,chatgpt,1,3,QuickBooks Self-Employed
+q05,Accounting,chatgpt,1,4,Xero
+q05,Accounting,chatgpt,1,5,Zoho Books
+q05,Accounting,chatgpt,2,1,FreshBooks
+q05,Accounting,chatgpt,2,2,Wave
+q05,Accounting,chatgpt,2,3,QuickBooks Self-Employed
+q05,Accounting,chatgpt,2,4,Xero
+q05,Accounting,chatgpt,2,5,Zoho Books
+q05,Accounting,chatgpt,3,1,FreshBooks
+q05,Accounting,chatgpt,3,2,Wave
+q05,Accounting,chatgpt,3,3,QuickBooks Self-Employed
+q05,Accounting,chatgpt,3,4,Xero
+q05,Accounting,chatgpt,3,5,Zoho Books
+q05,Accounting,gemini,1,1,FreshBooks
+q05,Accounting,gemini,1,2,Wave
+q05,Accounting,gemini,2,1,FreshBooks
+q05,Accounting,gemini,2,2,Wave Accounting
+q05,Accounting,gemini,2,3,QuickBooks Solopreneur
+q05,Accounting,gemini,3,1,Wave
+q05,Accounting,gemini,3,2,FreshBooks
+q05,Accounting,gemini,3,3,QuickBooks Solopreneur
+q05,Accounting,gemini,3,4,Zoho Books
+q05,Accounting,gemini,3,5,Quicken Business & Personal
+q06,Marketing agencies,chatgpt,1,1,WebFX
+q06,Marketing agencies,chatgpt,1,2,Ignite Visibility
+q06,Marketing agencies,chatgpt,1,3,NinjaPromo
+q06,Marketing agencies,chatgpt,1,4,GrowthRocks
+q06,Marketing agencies,chatgpt,1,5,KlientBoost
+q06,Marketing agencies,chatgpt,2,1,WebFX
+q06,Marketing agencies,chatgpt,2,2,Ignite Visibility
+q06,Marketing agencies,chatgpt,2,3,NinjaPromo
+q06,Marketing agencies,chatgpt,2,4,KlientBoost
+q06,Marketing agencies,chatgpt,2,5,GrowthRocks
+q06,Marketing agencies,chatgpt,3,1,WebFX
+q06,Marketing agencies,chatgpt,3,2,Ignite Visibility
+q06,Marketing agencies,chatgpt,3,3,NinjaPromo
+q06,Marketing agencies,chatgpt,3,4,GrowthRocks
+q06,Marketing agencies,chatgpt,3,5,KlientBoost
+q06,Marketing agencies,chatgpt,3,6,NP Digital
+q06,Marketing agencies,gemini,1,1,NoGood
+q06,Marketing agencies,gemini,1,2,Directive
+q06,Marketing agencies,gemini,1,3,Right Side Up
+q06,Marketing agencies,gemini,1,4,Sweat Pants Agency
+q06,Marketing agencies,gemini,1,5,Disruptive Advertising
+q06,Marketing agencies,gemini,2,1,NoGood
+q06,Marketing agencies,gemini,2,2,Right Side Up
+q06,Marketing agencies,gemini,2,3,Growth Division
+q06,Marketing agencies,gemini,2,4,Single Grain
+q06,Marketing agencies,gemini,2,5,Sweat Pants Agency
+q06,Marketing agencies,gemini,2,6,Disruptive Advertising
+q06,Marketing agencies,gemini,3,1,NoGood
+q06,Marketing agencies,gemini,3,2,Right Side Up
+q06,Marketing agencies,gemini,3,3,Sweat Pants Agency
+q06,Marketing agencies,gemini,3,4,Growth Division
+q06,Marketing agencies,gemini,3,5,Single Grain
+q07,Website builders,chatgpt,1,1,Wix
+q07,Website builders,chatgpt,1,2,Squarespace
+q07,Website builders,chatgpt,1,3,Shopify
+q07,Website builders,chatgpt,1,4,Weebly
+q07,Website builders,chatgpt,1,5,Hostinger
+q07,Website builders,chatgpt,2,1,Wix
+q07,Website builders,chatgpt,2,2,Squarespace
+q07,Website builders,chatgpt,2,3,Shopify
+q07,Website builders,chatgpt,2,4,Weebly
+q07,Website builders,chatgpt,2,5,Hostinger
+q07,Website builders,chatgpt,3,1,Wix
+q07,Website builders,chatgpt,3,2,Squarespace
+q07,Website builders,chatgpt,3,3,Shopify
+q07,Website builders,chatgpt,3,4,Weebly
+q07,Website builders,chatgpt,3,5,Hostinger
+q07,Website builders,gemini,1,1,Squarespace
+q07,Website builders,gemini,1,2,Wix
+q07,Website builders,gemini,1,3,Shopify
+q07,Website builders,gemini,1,4,Hostinger
+q07,Website builders,gemini,1,5,GoDaddy
+q07,Website builders,gemini,2,1,Wix
+q07,Website builders,gemini,2,2,Squarespace
+q07,Website builders,gemini,2,3,Shopify
+q07,Website builders,gemini,2,4,Hostinger
+q07,Website builders,gemini,2,5,GoDaddy Airo
+q07,Website builders,gemini,3,1,Squarespace
+q07,Website builders,gemini,3,2,Wix
+q07,Website builders,gemini,3,3,Shopify
+q08,Live chat,chatgpt,1,1,Tidio
+q08,Live chat,chatgpt,1,2,Tawk.to
+q08,Live chat,chatgpt,1,3,Crisp
+q08,Live chat,chatgpt,1,4,Olark
+q08,Live chat,chatgpt,1,5,Smartsupp
+q08,Live chat,chatgpt,2,1,Tidio
+q08,Live chat,chatgpt,2,2,Tawk.to
+q08,Live chat,chatgpt,2,3,Crisp
+q08,Live chat,chatgpt,2,4,Olark
+q08,Live chat,chatgpt,2,5,Smartsupp
+q08,Live chat,chatgpt,3,1,Tidio
+q08,Live chat,chatgpt,3,2,Tawk.to
+q08,Live chat,chatgpt,3,3,Crisp
+q08,Live chat,chatgpt,3,4,Olark
+q08,Live chat,chatgpt,3,5,Smartsupp
+q08,Live chat,gemini,1,1,LiveChat
+q08,Live chat,gemini,1,2,Tidio
+q08,Live chat,gemini,1,3,tawk.to
+q08,Live chat,gemini,1,4,HubSpot
+q08,Live chat,gemini,2,1,LiveChat
+q08,Live chat,gemini,2,2,tawk.to
+q08,Live chat,gemini,2,3,Tidio
+q08,Live chat,gemini,2,4,HubSpot Live Chat
+q08,Live chat,gemini,2,5,Re:amaze
+q08,Live chat,gemini,3,1,LiveChat
+q08,Live chat,gemini,3,2,Tidio
+q08,Live chat,gemini,3,3,Tawk.to
+q08,Live chat,gemini,3,4,HubSpot
+q08,Live chat,gemini,3,5,Crisp
+q09,E-commerce,chatgpt,1,1,Shopify
+q09,E-commerce,chatgpt,1,2,WooCommerce
+q09,E-commerce,chatgpt,1,3,Wix eCommerce
+q09,E-commerce,chatgpt,1,4,BigCommerce
+q09,E-commerce,chatgpt,1,5,Squarespace Commerce
+q09,E-commerce,chatgpt,2,1,Shopify
+q09,E-commerce,chatgpt,2,2,WooCommerce
+q09,E-commerce,chatgpt,2,3,Wix eCommerce
+q09,E-commerce,chatgpt,2,4,BigCommerce
+q09,E-commerce,chatgpt,2,5,Squarespace Commerce
+q09,E-commerce,chatgpt,3,1,Shopify
+q09,E-commerce,chatgpt,3,2,WooCommerce
+q09,E-commerce,chatgpt,3,3,Wix eCommerce
+q09,E-commerce,chatgpt,3,4,BigCommerce
+q09,E-commerce,chatgpt,3,5,Squarespace Commerce
+q09,E-commerce,gemini,1,1,Shopify
+q09,E-commerce,gemini,2,1,Shopify
+q09,E-commerce,gemini,2,2,Wix
+q09,E-commerce,gemini,2,3,Squarespace
+q09,E-commerce,gemini,2,4,WooCommerce
+q09,E-commerce,gemini,2,5,Bluehost
+q09,E-commerce,gemini,2,6,Hostinger
+q09,E-commerce,gemini,3,1,Shopify
+q09,E-commerce,gemini,3,2,Wix
+q10,Appointment scheduling,chatgpt,1,1,Calendly
+q10,Appointment scheduling,chatgpt,1,2,Acuity Scheduling
+q10,Appointment scheduling,chatgpt,1,3,Go High Level
+q10,Appointment scheduling,chatgpt,1,4,HubSpot Meetings
+q10,Appointment scheduling,chatgpt,1,5,Setmore
+q10,Appointment scheduling,chatgpt,2,1,Calendly
+q10,Appointment scheduling,chatgpt,2,2,Acuity Scheduling
+q10,Appointment scheduling,chatgpt,2,3,Go High Level
+q10,Appointment scheduling,chatgpt,2,4,HubSpot Meetings
+q10,Appointment scheduling,chatgpt,2,5,Setmore
+q10,Appointment scheduling,chatgpt,3,1,Calendly
+q10,Appointment scheduling,chatgpt,3,2,Acuity Scheduling
+q10,Appointment scheduling,chatgpt,3,3,Square Appointments
+q10,Appointment scheduling,chatgpt,3,4,Setmore
+q10,Appointment scheduling,chatgpt,3,5,HoneyBook CRM
+q10,Appointment scheduling,gemini,1,1,Acuity Scheduling
+q10,Appointment scheduling,gemini,1,2,Square Appointments
+q10,Appointment scheduling,gemini,2,1,Acuity Scheduling
+q10,Appointment scheduling,gemini,2,2,Square Appointments
+q10,Appointment scheduling,gemini,2,3,Calendly
+q10,Appointment scheduling,gemini,2,4,Setmore
+q10,Appointment scheduling,gemini,3,1,Acuity Scheduling
+q10,Appointment scheduling,gemini,3,2,Square Appointments
+q10,Appointment scheduling,gemini,3,3,Calendly
+q10,Appointment scheduling,gemini,3,4,Setmore
+q10,Appointment scheduling,gemini,3,5,SimplyBook.me
+q10,Appointment scheduling,gemini,3,6,Cal.com
