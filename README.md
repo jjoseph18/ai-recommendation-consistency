@@ -1,5 +1,8 @@
 # AI Recommendation Consistency Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22738861.svg)](https://doi.org/10.5281/zenodo.22738861)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE)
+
 **How stable are the business recommendations you get from web-search-enabled LLMs when you ask the same question more than once?**
 
 This repository releases the full response data and analysis code from an exploratory study of run-to-run consistency in ChatGPT and Google Gemini. We asked ten open-ended "best X for a small business" questions, three times each, to each assistant on a single day (**60 responses total**), extracted the set of businesses each answer recommended, and measured how much that set changed between identical repeated queries.
@@ -121,9 +124,11 @@ Useful extensions we haven't done: more repetitions per question (to get real co
 
 ## Citing this dataset
 
-If you use this data, please cite it (see [`CITATION.cff`](CITATION.cff)). The full writeup is in the preprint bundled here: [`ai-recommendation-consistency-preprint.pdf`](ai-recommendation-consistency-preprint.pdf). A DOI-registered version is forthcoming on Zenodo; **DOI: pending** — this README will be updated with it. Until then:
+If you use this data, please cite it (see [`CITATION.cff`](CITATION.cff)). The full writeup is in the preprint bundled here: [`ai-recommendation-consistency-preprint.pdf`](ai-recommendation-consistency-preprint.pdf), and the DOI-registered version is on Zenodo:
 
-> Pressfront Research. *AI Recommendation Consistency Dataset: Run-to-Run Consistency of Business Recommendations from Web-Search-Enabled Large Language Models (Exploratory Study).* 2026. https://github.com/jjoseph18/ai-recommendation-consistency
+> Pressfront Research (2026). *Run-to-Run Consistency of Business Recommendations from Web-Search-Enabled Large Language Models: An Exploratory Study.* Zenodo. https://doi.org/10.5281/zenodo.22738861
+
+**DOI:** [`10.5281/zenodo.22738861`](https://doi.org/10.5281/zenodo.22738861) (this version) · [`10.5281/zenodo.22738860`](https://doi.org/10.5281/zenodo.22738860) (all versions)
 
 For the companion writeup and further analysis: **[pressfront.co/research](https://pressfront.co/research)**
 

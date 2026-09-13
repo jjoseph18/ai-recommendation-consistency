@@ -13,7 +13,15 @@ authors:
 date-released: 2026-09-13
 version: "1.0.0"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.22738861
 url: https://github.com/jjoseph18/ai-recommendation-consistency
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22738861
+    description: This version
+  - type: doi
+    value: 10.5281/zenodo.22738860
+    description: All versions (concept DOI, resolves to latest)
 abstract: >-
   Ten open "best X for a small business" questions were each issued three times
   to ChatGPT (OpenAI Responses API with web_search) and Google Gemini
@@ -24,8 +32,7 @@ abstract: >-
   69.5% (ChatGPT 87.2%, Gemini 51.9%); of 127 distinct business-slots, 56%
   appeared in every repetition and 27% in only one. An exploratory study; the
   small sample means the results are directional. Full method, code, and all 60
-  responses are released for independent verification. A formal preprint with a
-  DOI is forthcoming on Zenodo.
+  responses are released for independent verification.
 keywords:
   - large language models
   - generative engine optimization
